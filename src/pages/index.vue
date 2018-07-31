@@ -38,6 +38,27 @@ export default {
         const $canvas = this.$canvas;
         const $context = $canvas.getContext('2d');
 
+        let line1 = {
+            startX: 200,
+            startY: 200,
+            endX: 270,
+            endY: 120
+        }
+
+        let line2 = {
+            startX: 270,
+            startY: 120,
+            endX: 370,
+            endY: 120
+        }
+
+        let line3 = {
+            startX: 370,
+            startY: 120,
+            endX: 300,
+            endY: 200
+        }
+
         $context.lineWidth = 2;
         //$context.beginPath();
         /*$context.arc(200, 200, 50, 0, Math.PI * 2, true);
@@ -49,14 +70,19 @@ export default {
 
 
         vue.firstCircle($canvas, $context, function () {
-            vue.firstLine($canvas, $context);
+            vue.drawLine($canvas, $context, line1, function () {
+                vue.drawLine($canvas, $context, line2, function () {
+                    vue.drawLine($canvas, $context, line3, function () {
+                        console.log('end');
+                    });
+                });
+            });
         });
-
     },
     methods: {
         firstCircle (canvas, context, endCallback) {
             let amount = 0;
-            let speed = 10;
+            let speed = 5;
 
             setTimeout(function play () {
                 amount += 0.01;
@@ -75,17 +101,17 @@ export default {
                 }
             }, speed);
         },
-        firstLine (canvas, context, endCallback) {
+        drawLine (canvas, context, path, endCallback) {
             let amount = 0;
-            let speed = 10;
+            let speed = 5;
 
-            context.moveTo(200, 200);
+            context.moveTo(path.startX, path.startY);
 
             setTimeout(function play () {
                 amount += 0.01;
                 context.save();
                 context.clearRect(0, 0, canvas.width, canvas.height);
-                context.lineTo(200 + (270 - 200) * amount, 200 + (120 - 200) * amount);
+                context.lineTo(path.startX + (path.endX - path.startX) * amount, path.startY + (path.endY - path.startY) * amount);
                 context.stroke();
 
                 if (amount < 1) {
