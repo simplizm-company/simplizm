@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.page-enter-active,
+.page-leave-active {transition: all 500ms;}
+.page-enter,
+.page-leave-to {opacity: 0; transform: translateY(12px); transition: none;}
+
+.fade-enter-active,
+.fade-leave-active {transition: all 500ms;}
+.fade-enter,
+.fade-leave-to {opacity: 0; transition: none;}
+
+.modal-enter-active,
+.modal-leave-active {transition: all 200ms;}
+.modal-enter,
+.modal-leave-to {opacity: 0; transform: translateY(24px); transition: none;}
+
+.container-enter-active,
+.container-leave-active {transition: all 1000ms; transform-origin: top center;}
+.container-enter,
+.container-leave-to {opacity: 0; transform: scale(1.2) translate(100px);}
+
+.header-enter-active,
+.header-leave-active {transition: all 1000ms 500ms;}
+.header-enter,
+.header-leave-to {opacity: 0; transform: translateY(-50px);}

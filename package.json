@@ -1,0 +1,36 @@
+{
+    "name": "simplizm-template",
+    "version": "1.0.0",
+    "description": "Nuxt.js project",
+    "author": "shiniyongjun <shinyj1991@gmail.com>",
+    "private": true,
+    "config": {
+        "nuxt": {
+            "host": "0.0.0.0",
+            "port": "3333"
+        }
+    },
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "precommit": "npm run lint"
+    },
+    "dependencies": {
+        "jquery": "^3.3.1",
+        "node-sass": "^4.9.0",
+        "nuxt": "^1.0.0",
+        "nuxt-sass-resources-loader": "^2.0.2",
+        "sass-loader": "^7.0.3",
+        "vuejs-datepicker": "^1.3.2"
+    },
+    "devDependencies": {
+        "babel-eslint": "^8.2.1",
+        "eslint": "^4.15.0",
+        "eslint-friendly-formatter": "^3.0.0",
+        "eslint-loader": "^1.7.1",
+        "eslint-plugin-vue": "^4.0.0"
+    }
+}
