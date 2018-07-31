@@ -18,7 +18,7 @@
 .container-enter-active,
 .container-leave-active {transition: all 1000ms; transform-origin: top center;}
 .container-enter,
-.container-leave-to {opacity: 0; transform: scale(1.2) translate(100px);}
+.container-leave-to {opacity: 0; transform: scale(1.2);}
 
 .header-enter-active,
 .header-leave-active {transition: all 1000ms 500ms;}
