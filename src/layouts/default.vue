@@ -26,7 +26,7 @@ export default {
 
 
 <style lang="scss">
-#wrap {overflow: hidden; position: relative; min-width: $desktop; min-height: 100vh;
+#wrap {overflow: hidden; position: relative; max-width: 1020px; min-height: 100vh; margin: 0 auto; padding: 10px;
     @include desktop {min-width: auto;}
 }
 </style>
