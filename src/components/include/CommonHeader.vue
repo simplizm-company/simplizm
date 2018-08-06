@@ -12,7 +12,7 @@ export default {
 </script>
 
 <style lang="scss">
-#header {display: flex; justify-content: space-between; align-items: center; height: 80px; padding: 0 30px; margin: 0 auto; border: 1px solid #000000;
+#header {display: flex; justify-content: space-between; align-items: center; height: 80px; padding: 0; margin: 0 auto; border-bottom: 1px solid #000000;
     .logo {font-family: NanumSquare; font-weight: 700; font-size: 32px; color: #000000;}
     .gnb-toggle {position: relative; width: 50px; height: 28px;
         &:before {display: block; content: ''; position: absolute; top: 0; left: 0; width: 50px; height: 4px; border: 1px solid #000000;}
