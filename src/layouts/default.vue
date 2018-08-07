@@ -16,6 +16,9 @@ export default {
     computed: {
         firstAppOpen () {
             return this.$store.state.common.firstAppOpen;
+        },
+        gnbVisible () {
+            return this.$store.state.common.gnbVisible;
         }
     },
     mounted () {

@@ -47,7 +47,7 @@ a:focus,
 input:focus,
 button:focus,
 select:focus,
-textarea:focus {outline: 1px dotted #000000;}
+textarea:focus {outline: none;}
 
 .hide	{visibility: hidden; overflow: hidden; position: absolute; left: -9999em; top: -9999em; width: 0px; height: 0px; border: none; background: none; font-size: 0px; line-height: 0px; opacity: 0;}
 

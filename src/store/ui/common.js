@@ -1,5 +1,6 @@
 const state = {
-    firstAppOpen: false
+    firstAppOpen: false,
+    gnbVisible: false
 }
 
 export default {

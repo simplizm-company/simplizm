@@ -24,3 +24,8 @@
 .header-leave-active {transition: all 1000ms 500ms;}
 .header-enter,
 .header-leave-to {opacity: 0; transform: translateY(-50px);}
+
+.gnb-enter-active,
+.gnb-leave-active {transition: all 500ms;}
+.gnb-enter,
+.gnb-leave-to {opacity: 0;}
