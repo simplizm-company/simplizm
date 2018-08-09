@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 module.exports = {
     head: {
-        title: 'simplizm',
+        title: 'SIMPLIZM',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -17,7 +17,7 @@ module.exports = {
         { src: '~assets/scss/style.scss', lang: 'scss' }
     ],
     mode: 'spa',
-    loading: { color: '#3B8070' },
+    loading: { color: '#000000' },
     srcDir: 'src/',
     build: {
         extend (config, { isDev, isClient }) {

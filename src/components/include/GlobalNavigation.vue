@@ -1,9 +1,8 @@
 <template>
     <nav id="_global-navigation">
         <ul>
-            <li><nuxt-link to="/">About</nuxt-link></li>
-            <li><nuxt-link to="/">Project</nuxt-link></li>
-            <li><nuxt-link to="/">Blog</nuxt-link></li>
+            <li><nuxt-link to="/project">Project</nuxt-link></li>
+            <!-- <li><nuxt-link to="/">Blog</nuxt-link></li> -->
         </ul>
     </nav>
 </template>

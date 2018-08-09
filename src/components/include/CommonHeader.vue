@@ -1,6 +1,6 @@
 <template>
     <header id="header">
-        <h1 class="logo"><nuxt-link to="/">Simplizm</nuxt-link></h1>
+        <h1 class="logo"><nuxt-link to="/">SIMPLIZM</nuxt-link></h1>
         <button class="gnb-toggle" :class="{ active : gnbVisible }" @click="toggleGnbVisible"><div>전체메뉴</div></button>
         <transition name="gnb">
             <global-navigation v-if="gnbVisible"></global-navigation>

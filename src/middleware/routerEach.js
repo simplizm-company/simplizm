@@ -1,3 +1,3 @@
 export default function (context) {
-    console.log(context);
+    context.store.state.common.gnbVisible = false;
 }
