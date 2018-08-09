@@ -29,7 +29,7 @@ export default {
 
 
 <style lang="scss">
-#wrap {position: relative; max-width: 1020px; min-height: 100vh; margin: 0 auto; padding: 0 10px;
+#wrap {position: relative; max-width: 1024px; min-height: 100vh; margin: 0 auto; padding: 0 12px;
     @include desktop {min-width: auto;}
 }
 </style>
