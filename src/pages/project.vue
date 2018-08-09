@@ -138,10 +138,10 @@ export default {
 
 <style lang="scss">
 #project {padding: 50px 0 100px;
-    ul {display: flex; flex-wrap: wrap; justify-content: space-between;
-        li {width: 30%; margin: 0 0 5%;
-            &:first-child {margin-top: 0;}
-            .image {display: flex; flex: 0 0 300px; justify-content: center; align-items: center; height: 300px; background: #f7f7f7;
+    ul {display: flex; flex-wrap: wrap; margin: 0 0 -5%;
+        li {width: 30%; margin: 0 5% 5% 0;
+            &:nth-child(3n) {margin-right: 0;}
+            .image {display: flex; flex: 0 0 300px; justify-content: center; align-items: center; height: 100%; background: #f7f7f7;
                 img {max-width: 80%;}
             }
             .disct {margin: 20px 0 0;
