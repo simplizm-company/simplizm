@@ -1,6 +1,7 @@
 <template>
     <nav id="_global-navigation">
         <ul>
+            <li><nuxt-link to="/resume">Resume</nuxt-link></li>
             <li><nuxt-link to="/project">Project</nuxt-link></li>
             <!-- <li><nuxt-link to="/">Blog</nuxt-link></li> -->
         </ul>
