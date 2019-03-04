@@ -13,8 +13,14 @@
             <cut tag="h1">Career</cut>
             <ol class="career">
                 <li>
+                    <cut class="company">Newborn Holdings</cut>
+                    <cut class="period">- 2019. 02 ~</cut>
+                    <cut class="skills">- HTML, CSS, Javascript, jQuery</cut>
+                    <cut class="working">- 연구개발팀 소속, 자체솔루션 웹퍼블리싱 담당</cut>
+                </li>
+                <li>
                     <cut class="company">Free-lancer</cut>
-                    <cut class="period">- 2018. 09 ~</cut>
+                    <cut class="period">- 2018. 09 ~ 2019. 01</cut>
                     <cut class="skills">- HTML, CSS, Javascript, jQuery, Vuejs</cut>
                     <cut class="working">- 웹&middot;앱 퍼블리싱, 프로모션&middot;이벤트 퍼블리싱, 기획&middot;디자인&middot;개발 연계, 패럴렉스, 스크립트, 플러그인제작, Vuejs</cut>
                 </li>
@@ -60,9 +66,7 @@ export default {
         .career {
             li {position: relative; margin: 50px 0 0;
                 &:first-child {margin-top: 0;}
-                .company {margin: 0 0 20px; font-weight: 700; font-size: 19px; color: #666666;
-                    .period {margin: 0 0 0 20px; font-weight: 400; font-size: 17px;}
-                }
+                .company {margin: 0 0 20px; font-weight: 700; font-size: 19px; color: #000000;}
                 .period {margin: 0 0 10px;}
                 .skills {position: relative; margin: 0 0 10px;}
             }

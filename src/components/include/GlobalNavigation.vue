@@ -3,7 +3,7 @@
         <ul>
             <li><nuxt-link to="/resume">Resume</nuxt-link></li>
             <li><nuxt-link to="/project">Project</nuxt-link></li>
-            <!-- <li><nuxt-link to="/">Blog</nuxt-link></li> -->
+            <li><nuxt-link to="/plugin">Plug-in</nuxt-link></li>
         </ul>
     </nav>
 </template>
