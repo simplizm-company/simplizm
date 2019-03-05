@@ -1,9 +1,9 @@
 <template>
-    <div id="project">
+    <div id="plugin">
         <page-title>Plug-in</page-title>
         <ul>
             <li>
-                <a href="http://simplizm.com/project/default/views/@plugins/eclipse/" target="_blank">
+                <a href="https://simplizm-company.github.io/eclipse/" target="_blank">
                     <div class="image">
                         <div class="inner"><img src="~/static/images/plugin/eclipse.gif" alt=""></div>
                     </div>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="scss">
-#project {padding: 50px 0 100px;
+#plugin {padding: 50px 0 100px;
     ul {display: flex; flex-wrap: wrap; margin: 0 0 -5%;
         @include mobile {margin: 0 0 -10%;}
         li {width: 30%; margin: 0 5% 5% 0;
