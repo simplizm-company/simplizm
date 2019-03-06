@@ -48,6 +48,10 @@ module.exports = {
     ],
     plugins: [
         '~/plugins/setWindowInfo',
-        '~/plugins/componentsRegister'
+        '~/plugins/componentsRegister',
+        {
+            src: '~/plugins/ga.js',
+            ssr: false
+        }
     ]
 }
