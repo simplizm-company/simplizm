@@ -3,13 +3,24 @@
         <page-title>Plug-in</page-title>
         <ul>
             <li>
+                <a href="https://simplizm-company.github.io/kronos/" target="_blank">
+                    <div class="image">
+                        <div class="inner"></div>
+                    </div>
+                    <div class="disct">
+                        <cut class="title">Kronos</cut>
+                        <cut class="text">jQuery datepicker</cut>
+                    </div>
+                </a>
+            </li>
+            <li>
                 <a href="https://simplizm-company.github.io/eclipse/" target="_blank">
                     <div class="image">
-                        <div class="inner"><img src="~/static/images/plugin/eclipse.gif" alt=""></div>
+                        <div class="inner"></div>
                     </div>
                     <div class="disct">
                         <cut class="title">Eclipse</cut>
-                        <cut class="text">jQuery slider</cut>
+                        <cut class="text">jQuery no clone slider</cut>
                     </div>
                 </a>
             </li>
